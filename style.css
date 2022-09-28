@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Anybody', cursive;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+body{
+    background-color: burlywood;
+}
+section{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 30rem;
+    width: 60rem;
+    margin: auto;
+    margin-top: 90px;
+    background-color: aliceblue;
+    text-align: center;
+
+    padding: 20px 10px;
+}
+form  >p{
+    margin-top: 100px;
+    font-size: 20px;
+}
+form .inputan{
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 20px;
+    padding: 2px 20px;
+    text-align: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: burlywood;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
